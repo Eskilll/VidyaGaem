@@ -19,11 +19,18 @@ namespace Vidya
             thePlayer.speed = 1;
 
             Weapon theWeapon = new Weapon();
-            theWeapon.fireRate = 1;
+            theWeapon.fireRate = 600; // rounds/min
             theWeapon.recoil = 1;
-            theWeapon.damage = 1;
+            theWeapon.damage = 15;
             theWeapon.bulletPerShot = 1;
             theWeapon.name = "gun";
+
+            Grenade theGrenade = new Grenade();
+            theGrenade.name = "FragGrenade";
+            theGrenade.fire = false;
+            theGrenade.damage = 120;
+            theGrenade.fallOff = 100;
+            theGrenade.aoe = 200;
 
         }
     }
