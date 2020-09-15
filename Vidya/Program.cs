@@ -19,7 +19,11 @@ namespace Vidya
             thePlayer.speed = 1;
 
             Weapon theWeapon = new Weapon();
-            theWeapon. = ;
+            theWeapon.fireRate = 1;
+            theWeapon.recoil = 1;
+            theWeapon.damage = 1;
+            theWeapon.bulletPerShot = 1;
+            theWeapon.name = "gun";
 
         }
     }
